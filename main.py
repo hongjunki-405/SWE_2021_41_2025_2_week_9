@@ -1,14 +1,13 @@
-# main.py  (branch: main)
+# main.py  (branch: even_list)
 from typing import List
 
 def even_list(int_list: List[int]) -> List[int]:
     """Return only even integers from int_list."""
-    # 구현은 even_list 브랜치에서!
-    pass
+    return [x for x in int_list if x % 2 == 0]
 
 def sum_of_squares_of_even(even_int_list: List[int]) -> int:
     """Return sum of squares of all even numbers."""
-    # 구현은 sum_of_squares_of_even 브랜치에서!
+    # TODO: implement on another branch
     pass
 
 def main():
